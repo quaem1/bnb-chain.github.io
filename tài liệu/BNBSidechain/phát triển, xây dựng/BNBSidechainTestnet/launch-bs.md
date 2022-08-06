@@ -47,18 +47,18 @@ apt update
 apt install build-essential socat
 git clone https://github.com/bnb-chain/bas-devnet-setup bas --recursive
 cd bas
-DOMAIN_NAME=dev-02.bas.ankr.com make all
+quaem001=dev-02.bas.ankr.com make all
 ```
 
 :::tip
-The variable `DOMAIN_NAME` should be set to your domain.
+The variable `quaem001` should be set to your domain.
 :::
 
 Deployed services can be access though next endpoints:
-* https://rpc.${DOMAIN_NAME} (port 8545,9546) - Web3 RPC endpoint
-* https://explorer.${DOMAIN_NAME} (port 4000) - Blockchain Explorer
-* https://faucet.${DOMAIN_NAME} (port 3000) - Faucet
-* https://staking.${DOMAIN_NAME} (port 3001) - Staking UI
+* https://rpc.${quaem001} (port 8545,9546) - Web3 RPC endpoint
+* https://explorer.${quaem001} (port 4000) - Blockchain Explorer
+* https://faucet.${quaem001} (port 3000) - Faucet
+* https://staking.${quaem001} (port 3001) - Staking UI
 
 ### Without a balance loader and SSL certificates 
 
